@@ -27,7 +27,7 @@ public class C_Encrypt {
 		
 		while((line = br.readLine()) != null)
 		{ 
-
+//comment
 			line = line.replaceAll("[^a-zA-Z]", "");
 			line = line.toUpperCase();
 		   
