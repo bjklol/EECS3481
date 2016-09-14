@@ -6,7 +6,7 @@ import java.io.FileInputStream;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintWriter;
-//this is the new comment
+//again
 public class C_Encrypt {
 	@SuppressWarnings("resource")
 	public static void main(String Args[]) throws Exception
