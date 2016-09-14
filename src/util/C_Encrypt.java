@@ -12,15 +12,15 @@ public class C_Encrypt {
 	public static void main(String Args[]) throws Exception
 	{
 		FileInputStream msg;
-		FileReader fr = new FileReader("D:/Users/Tyler/workspace/EECS3481/src/util/MSG1.pt");
+		FileReader fr = new FileReader("MSG1.pt");
 		BufferedReader br = new BufferedReader(fr);
-		File pt = new File("D:/Users/Tyler/workspace/EECS3481/src/util/MSG1.pt");
+		File pt = new File("MSG1.pt");
 		CryptoTools.fileToBytes(pt);
 		PrintWriter out = new PrintWriter("D:/Users/Tyler/workspace/EECS3481/src/util/MSG1.clean");
 		 char[] letters = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 
 		            'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 
 		            'w', 'x', 'y', 'z'};
-
+//hey bj
 		 char[] encrypted;
 		 int shiftkey=19;
 		String line;
